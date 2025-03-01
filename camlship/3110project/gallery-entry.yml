@@ -1,0 +1,34 @@
+---
+# Members of your group.
+group:
+  - name: Aiden Lee
+    netid: akl72
+  - name: Connor Smith
+    netid: css289
+  - name: Kira Pinkney
+    netid: kjp76
+  - name: Lindsay Chong
+    netid: lyc28
+  - name: Xiaoxin Li
+    netid: xl432
+# Your PM.
+pm:
+  name: Raymond Lin
+  netid: rl569
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Camlship"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/xl432/3110project.git"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a replication of the game "Battleship" with new abilities and
+  power ups, similar to the online game. The game currently supports the 
+  creation of the game board, the placement of a limited number of ships, and
+  checks whether the placements are valid or not on a simple UI in the terminal. 
+  It aims to support attacks on ships, interesting power ups and new attacks, 
+  and an option for the user to play against a simple AI or another player.
+...

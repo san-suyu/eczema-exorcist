@@ -1,0 +1,4 @@
+(library
+ (name battleship)
+ (modules battleship)
+ (libraries ANSITerminal))

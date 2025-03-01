@@ -1,0 +1,4 @@
+(executable
+ (public_name 3110project-1)
+ (name main)
+ (libraries battleship ANSITerminal str))
