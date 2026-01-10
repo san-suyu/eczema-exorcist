@@ -1,5 +1,0 @@
-(test
- (name test_finalproject)
- (libraries ounit2 battleship)
- (preprocess
-  (pps bisect_ppx)))
