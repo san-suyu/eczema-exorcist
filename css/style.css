@@ -5,10 +5,10 @@
 }
 
 :root {
-  --neutral-color: #F8F7F4;
+  --neutral-color: #fffdf3;
   --light-color: #f0ead2;
   --light-green: #dde5b6;
-  --dark-green: #ADC178;
+  --dark-green: #839557;
   --light-brown: #a98467;
   --dark-brown: #6c584c;
 }
@@ -35,7 +35,7 @@ img {
 
 /* Navbar */
 .navbar {
-  background: var(--light-color);
+  background: var(--light-green);
   padding: 20px;
 }
 
@@ -43,6 +43,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
 }
 
 .navbar ul li a {
@@ -53,7 +57,7 @@ img {
 }
 
 .navbar ul li a:hover {
-  color: var(--dark-green);
+  color: var(--light-brown);
 }
 
 .navbar ul li:last-child a {
@@ -63,10 +67,6 @@ img {
 /* making space for icons */
 .navbar ul li a i {
   margin-right: 10px;
-}
-
-.navbar .main-menu ul {
-  display: flex;
 }
 
 /* Hero */
@@ -104,7 +104,12 @@ img {
 }
 
 .footer a {
-  color: #ccc;
+  color: var(--light-color);
+  transition: 0.5s;
+}
+
+.footer a:hover {
+  color: var(--neutral-color);
 }
 
 .footer i {
@@ -127,7 +132,7 @@ img {
 .footer input[type='email'] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid var(--dark-brown);
   border-radius: 5px;
   margin: 20px 0;
 }
@@ -149,7 +154,7 @@ img {
 .btn {
   display: inline-block;
   padding: 13px 20px;
-  background: var(--light-green);
+  background: var(--neutral-color);
   color: var(--dark-brown);
   font-weight: 600;
   text-decoration: none;
@@ -165,7 +170,11 @@ img {
 
 .btn-primary {
   background: var(--light-green);
-  color: var(--neutral-color);
+  color: var(--dark-brown);
+}
+
+.btn-primary:hover {
+  color: var(--light-brown);
 }
 
 .btn-dark {
@@ -232,5 +241,5 @@ img {
 
 .bg-dark {
   background: var(--dark-green);
-  color: #fff;
+  color: var(--neutral-color);
 }
