@@ -9,8 +9,8 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <div id="navbar"></div>
-
   <!-- load navbar w javascript (change w React) -->
   <script>
     fetch("navbar.html")
@@ -33,6 +33,16 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+  <script>
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("footer").innerHTML = html;
+      });
+  </script>
 
   <script src="js/main.js"></script>
 </body>
